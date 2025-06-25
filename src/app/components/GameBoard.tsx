@@ -2,7 +2,7 @@
 'use client'; // This is a client component
 
 import React, { useState, useCallback, useMemo } from 'react';
-import { GameState, Line, Box, Player } from '../lib/types'; // Make sure Box and Player are imported as they are used for typing
+import { GameState, Line, Player } from '../lib/types'; // Make sure Box and Player are imported as they are used for typing
 import { initializeGame, applyMove, isValidMove, checkGameEnd, getWinner } from '../lib/gameLogic';
 
 interface GameBoardProps {
