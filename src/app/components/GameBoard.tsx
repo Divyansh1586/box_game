@@ -1,8 +1,8 @@
 // src/components/GameBoard.tsx
 'use client'; // This is a client component
 
-import React, { useState, useEffect, useCallback, useMemo } from 'react';
-import { GameState, Line, Box, Player, PlayerChar } from '../lib/types';
+import React, { useState, useCallback, useMemo } from 'react';
+import { GameState, Line } from '../lib/types';
 import { initializeGame, applyMove, isValidMove, checkGameEnd, getWinner } from '../lib/gameLogic';
 
 interface GameBoardProps {

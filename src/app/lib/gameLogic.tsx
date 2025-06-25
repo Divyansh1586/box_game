@@ -1,6 +1,6 @@
 // src/lib/gameLogic.ts
 
-import { GameState, Line, Box, Player, PlayerChar } from './types';
+import { GameState, Line, Box, Player } from './types';
 
 // Helper to generate a unique ID for a line
 const getLineId = (row: number, col: number, orientation: 'horizontal' | 'vertical'): string =>
